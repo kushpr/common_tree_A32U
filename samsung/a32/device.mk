@@ -6,12 +6,12 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 #RAMDISK
 PRODUCT_PACKAGES +=\
- fstab.universal5410 \
-    init.universal5410.rc \
-    init.universal5410.usb.rc \
-    init.universal5410.wifi.rc \
-    ueventd.universal5410.rc
+ fstab.universal6853 \
+    init.universal6853.rc \
+    init.universal6853.usb.rc \
+    init.universal6853.wifi.rc \
+    ueventd.universal6853.rc
     
     # Recovery
 PRODUCT_PACKAGES += \
-    init.recovery.universal5410.rc
+    init.recovery.universal6853.rc
